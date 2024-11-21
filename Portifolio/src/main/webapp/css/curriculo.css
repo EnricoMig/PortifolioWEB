@@ -1,0 +1,70 @@
+/* Estilos Específicos para o Currículo */
+
+/* Layout do currículo */
+.curriculo-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .coluna-1 {
+    width: 40%;
+    text-align: center;
+  }
+  
+  .coluna-1 .foto-perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .coluna-1 .informacoes-basicas {
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  .coluna-2 {
+    width: 55%;
+    text-align: left;
+  }
+  
+  .coluna-2 h2 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .coluna-2 p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .coluna-2 ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .coluna-2 ul li {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .curriculo-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .coluna-1, .coluna-2 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .coluna-1 .foto-perfil {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  

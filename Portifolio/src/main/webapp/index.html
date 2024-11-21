@@ -1,10 +1,33 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Start Page</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="./html/curriculo.html">Currículo</a></li>
+        <li><a href="http://localhost:8080/Portifolio/">Novidades</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="curriculo">
+    <h1>Meu Currículo</h1>
+    <p>Aqui você encontra meu currículo e informações profissionais.</p>
+    <!-- Adicione seu conteúdo aqui, como descrição, foto, links para LinkedIn, GitHub, etc. -->
+  </section>
+
+  <section id="novidades">
+    <h2>Novidades</h2>
+    <div id="novidades-lista"></div> <!-- Aqui as novidades serão carregadas via servlet -->
+  </section>
+
+  <script src="./js/script.js"></script>
+</body>
 </html>
